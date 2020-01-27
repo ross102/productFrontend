@@ -1,19 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
 
 const ProductForm = (props) => {
-	console.log(props);
 	return (
 		<div className="container mt-5">
 			<h3>
 				<b>Product Form</b>
 			</h3>
-			<form onSubmit={props.handleSubmit} class="mt-3">
+			<form onSubmit={props.handleSubmit} className="mt-3">
 				<div className="form-group">
 					<label>Product name:</label> <br />
 					<input
 						style={{ width: 300, height: 40 }}
-						class="form-group"
+						className="form-group"
 						type="text"
 						name="productName"
 						onChange={props.handleChange}
@@ -26,7 +24,7 @@ const ProductForm = (props) => {
 					<br />
 					<textarea
 						style={{ width: 300, height: 150 }}
-						class="form-group"
+						className="form-group"
 						value={props.productDesc}
 						name="productDesc"
 						required
@@ -38,7 +36,7 @@ const ProductForm = (props) => {
 					<br />
 					<input
 						style={{ width: 300, height: 40 }}
-						class="form-group"
+						className="form-group"
 						type="number"
 						name="productPrice"
 						onChange={props.handleChange}
@@ -51,7 +49,7 @@ const ProductForm = (props) => {
 					<br />
 					<input
 						style={{ width: 300, height: 40 }}
-						class="form-group"
+						className="form-group"
 						type="text"
 						name="productCategory"
 						onChange={props.handleChange}
@@ -64,7 +62,7 @@ const ProductForm = (props) => {
 					<br />
 					<input
 						style={{ width: 300, height: 40 }}
-						class="form-group"
+						className="form-group"
 						type="text"
 						name="productImage"
 						onChange={props.handleChange}
@@ -77,7 +75,7 @@ const ProductForm = (props) => {
 					<br />
 					<input
 						style={{ width: 300, height: 40 }}
-						class="form-group"
+						className="form-group"
 						type="text"
 						name="productColor"
 						onChange={props.handleChange}
