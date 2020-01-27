@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductForm = (props) => {
 	return (
-		<div className="container mt-5">
+		<div className="container mt-5 mb-5">
 			<h3>
 				<b>Product Form</b>
 			</h3>
@@ -10,7 +10,7 @@ const ProductForm = (props) => {
 				<div className="form-group">
 					<label>Product name:</label> <br />
 					<input
-						style={{ width: 300, height: 40 }}
+						style={{ width: 300, height: 30 }}
 						className="form-group"
 						type="text"
 						name="productName"
@@ -35,7 +35,7 @@ const ProductForm = (props) => {
 					<label>Price</label>
 					<br />
 					<input
-						style={{ width: 300, height: 40 }}
+						style={{ width: 300, height: 30 }}
 						className="form-group"
 						type="number"
 						name="productPrice"
@@ -48,7 +48,7 @@ const ProductForm = (props) => {
 					<label>Category</label>
 					<br />
 					<input
-						style={{ width: 300, height: 40 }}
+						style={{ width: 300, height: 30 }}
 						className="form-group"
 						type="text"
 						name="productCategory"
@@ -61,7 +61,7 @@ const ProductForm = (props) => {
 					<label>Image url: </label>
 					<br />
 					<input
-						style={{ width: 300, height: 40 }}
+						style={{ width: 300, height: 30 }}
 						className="form-group"
 						type="text"
 						name="productImage"
@@ -74,7 +74,7 @@ const ProductForm = (props) => {
 					<label>Color:</label>
 					<br />
 					<input
-						style={{ width: 300, height: 40 }}
+						style={{ width: 300, height: 30 }}
 						className="form-group"
 						type="text"
 						name="productColor"
@@ -83,7 +83,7 @@ const ProductForm = (props) => {
 						value={props.productColor}
 					/>
 				</div>
-				<button style={{ width: 300, height: 40 }} type="submit" className="btn btn-primary">
+				<button style={{ width: 300, height: 30 }} type="submit" className="btn btn-primary">
 					Submit
 				</button>
 			</form>
