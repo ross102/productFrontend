@@ -18,14 +18,14 @@ const FormData = (props) => {
 		// send data to backened
 		sendData();
 		// empty form
-		// setCur({
-		// 	productName: '',
-		// 	productDesc: '',
-		// 	productPrice: '',
-		// 	productCategory: '',
-		// 	productImage: '',
-		// 	productColor: ''
-		// });
+		setCur({
+			productName: '',
+			productDesc: '',
+			productPrice: '',
+			productCategory: '',
+			productImage: '',
+			productColor: ''
+		});
 	};
 
 	const handleChange = (event) => {

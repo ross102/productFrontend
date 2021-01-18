@@ -4,7 +4,7 @@ const ProductForm = (props) => {
 	return (
 		<div className="container mt-5 mb-5">
 			<h3>
-				<b>Product Form</b>
+				<b>Product Form. Added a change</b>
 			</h3>
 			<form onSubmit={props.handleSubmit} className="mt-3">
 				<div className="form-group">
